@@ -2,6 +2,7 @@
 Primarily this is for my use, but you can modify it, how you want. You can add or delete package names, files, etc.
 
 # Usage
+ - Clone this repo (`git clone https://github.com/martinkovacs/arch-setup`)
  - Add or delete package names inside of each category.
  - Edit `999-full-install.sh` to include the categories you want.
  - Then run `./999-full-install.sh <your choice of DE>` (currently just `xfce`, `plasma`, or `gnome`)
