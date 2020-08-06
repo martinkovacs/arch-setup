@@ -9,4 +9,4 @@ spotify
 ttf-ms-fonts
 )
 
-sudo ./install-with-yay.sh ${list[@]}
+./install-with-yay.sh ${list[@]}
