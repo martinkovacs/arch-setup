@@ -51,6 +51,7 @@ gnome-disk-utility
 grub-customizer
 gufw
 neofetch
+ntfs-3g
 papirus-icon-theme
 qalculate-gtk
 xdg-user-dirs
