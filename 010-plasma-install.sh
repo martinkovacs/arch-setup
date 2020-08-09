@@ -14,6 +14,7 @@ kate
 )
 
 apps=(
+ark
 breeze-gtk
 imagemagick
 gwenview

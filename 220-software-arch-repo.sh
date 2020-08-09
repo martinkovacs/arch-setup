@@ -2,7 +2,6 @@
 
 dev=(
 gcc
-clang
 code
 python
 )
@@ -11,15 +10,6 @@ games=(
 discord
 steam
 steam-native-runtime
-lib32-libvdpau
-lib32-libva
-lib32-nvidia-utils
-lib32-libxtst
-lib32-libxrandr
-lib32-libpulse
-lib32-gdk-pixbuf2
-lib32-gtk2
-lib32-openal
 )
 
 graphics=(
@@ -57,6 +47,17 @@ qalculate-gtk
 xdg-user-dirs
 )
 
+unpack=(
+arj
+cabextract
+sharutils
+unace
+unrar
+unzip
+uudeview
+zip
+)
+
 list=(
 ${dev[@]}
 ${games[@]}
@@ -65,6 +66,7 @@ ${internet[@]}
 ${multimedia[@]}
 ${office[@]}
 ${system[@]}
+${unpack[@]}
 )
 
 sudo ./install-with-pacman.sh ${list[@]}
