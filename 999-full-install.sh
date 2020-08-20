@@ -28,3 +28,4 @@ sudo ./320-discord-yay-nocheck.sh
 sudo ./400-install-fonts.sh
 sudo ./401-set-75hz.sh
 sudo ./402-configure-systemd.sh
+sudo ./403-fix-emoji-font.sh
